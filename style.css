@@ -1,0 +1,52 @@
+body {
+    background: #181a1b;
+    color: #f8fafc;
+}
+.bg-white, .bg-white .card, .bg-white .card-body, .bg-white .form-label, .bg-white .form-control, .bg-white h2, .bg-white p, .bg-white span, .bg-white li, .bg-white h5 {
+    color: #181a1b !important;
+}
+.navbar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.navbar.scrolled {
+    background: rgba(255,255,255,0.95) !important;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+.section {
+    padding: 80px 0 60px 0;
+}
+.rounded-shadow {
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+.badge-skill {
+    background: #e3f2fd;
+    color: #1976d2;
+    font-size: 1rem;
+    margin: 0.2rem;
+}
+.pokemon-icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 6px;
+}
+.footer {
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 32px 0 16px 0;
+}
+.form-control, .btn {
+    border-radius: 1rem;
+}
+.card {
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.25s, z-index 0.25s;
+    z-index: 1;
+}
+.card:hover, .card:focus {
+    transform: scale(1.06);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    z-index: 10;
+} 
